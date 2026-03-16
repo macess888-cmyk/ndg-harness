@@ -1,0 +1,54 @@
+object_id: example-001
+object_type: publication
+title: Example Convergence Note
+
+scope:
+  declared: external compatibility statement
+  bounded: true
+
+authorship:
+  primary_authors:
+    - Author A
+    - Author B
+  merged_authorship_claim: false
+
+assumptions:
+  - Frameworks remain independent
+  - No baseline mutation is implied
+
+invariant:
+  statement: Compatibility does not collapse structural independence.
+
+boundaries:
+  fail_closed_on:
+    - silent merger implication
+    - authorship drift
+    - implicit endorsement
+
+reversibility:
+  last_safe_region: pre-publication
+
+commitment_surface:
+  location: public release
+
+transition:
+  mode: around-baseline
+
+evidence:
+  observed:
+    - text of note
+    - declared scope language
+  inferred:
+    - public readers may assume integration
+  speculative:
+    - future downstream interpretation
+
+cross_scale:
+  local: pass
+  system: pass
+  pressure: provisional_pass
+
+separation_integrity:
+  compatibility_not_merger: true
+  collaboration_not_authorship: true
+  acknowledgment_not_endorsement: true

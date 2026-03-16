@@ -1,0 +1,73 @@
+{
+  "object_id": "example-001",
+  "posture": "support",
+  "summary_status": "admissible",
+  "results": [
+    {
+      "name": "identity",
+      "status": "pass",
+      "notes": []
+    },
+    {
+      "name": "invariant",
+      "status": "pass",
+      "notes": [
+        "Invariant stated."
+      ]
+    },
+    {
+      "name": "gfb",
+      "status": "pass",
+      "notes": [
+        "Fail-closed conditions declared."
+      ]
+    },
+    {
+      "name": "reversibility",
+      "status": "pass",
+      "notes": [
+        "Last safe region: pre-publication"
+      ]
+    },
+    {
+      "name": "halt_authority",
+      "status": "pass",
+      "notes": [
+        "Commitment surface: public release"
+      ]
+    },
+    {
+      "name": "ogr_transition",
+      "status": "pass",
+      "notes": [
+        "Transition remains around baseline."
+      ]
+    },
+    {
+      "name": "mdis",
+      "status": "pass",
+      "notes": [
+        "Observed: 2",
+        "Inferred: 1",
+        "Speculative: 1"
+      ]
+    },
+    {
+      "name": "cross_scale",
+      "status": "pass",
+      "notes": [
+        "local=pass, system=pass, pressure=provisional_pass"
+      ]
+    },
+    {
+      "name": "separation_integrity",
+      "status": "pass",
+      "notes": [
+        "Separation integrity intact."
+      ]
+    }
+  ],
+  "constraints": [
+    "Maintain explicit boundaries."
+  ]
+}

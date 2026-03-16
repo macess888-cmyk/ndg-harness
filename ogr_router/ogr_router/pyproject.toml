@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hacr"
+version = "0.1.0"
+description = "Hybrid-All Cross-Scale Router"
+requires-python = ">=3.10"
+dependencies = ["pyyaml"]
+
+[project.scripts]
+hacr = "hacr.cli:main"
