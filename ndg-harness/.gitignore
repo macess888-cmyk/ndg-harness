@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+.venv/
+
+# System / OS
+.DS_Store
+Thumbs.db
+
+# Local data
+runs/
+reports/
+
+# Editor
+.vscode/
+
+# Prevent parent directory bleed
+../*
