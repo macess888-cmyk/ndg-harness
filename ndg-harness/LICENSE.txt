@@ -1,0 +1,39 @@
+NDG-H Custom License (Attribution + Integrity + Non-Misrepresentation)
+
+Copyright (c) 2026 Jake Macdonald
+
+Permission is granted to use, copy, and redistribute this repository under the following conditions:
+
+1. Attribution Required
+   - All copies, forks, or derivatives must include clear attribution to:
+     "Jake Macdonald — NDG-H (Non-Derived Gate Harness)"
+   - Attribution must remain visible in source and any public-facing use.
+
+2. Scope Integrity
+   - This work must not be represented beyond its stated scope.
+   - No claims may be made that extend beyond the documented results in RESULTS.md.
+
+3. Non-Misrepresentation
+   - You may not:
+     - claim authorship
+     - remove attribution
+     - present modified versions as original
+     - imply guarantees, safety, or generalization not explicitly stated
+
+4. Derivative Transparency
+   - Any modifications must be clearly marked as modified
+   - Changes must not be presented as part of the original baseline
+
+5. No Implicit Warranty
+   - This work is provided "as is"
+   - No guarantees of correctness, safety, or fitness for purpose
+
+6. Termination
+   - Violation of any condition immediately revokes permission to use this work
+
+---
+
+This license is designed to preserve:
+- attribution
+- interpretive integrity
+- boundary of claims

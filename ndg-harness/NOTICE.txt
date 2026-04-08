@@ -1,0 +1,18 @@
+NDG-H — NOTICE
+
+This repository contains boundary-first observational work.
+
+Key constraints:
+
+- Results are limited to reproduced experimental conditions
+- No internal system claims are made
+- No generalization is claimed
+- No deployment guarantees are implied
+
+Any reuse must preserve:
+
+- attribution to Jake Macdonald
+- scope limitations
+- non-claiming posture
+
+If these are not preserved, the work is being misrepresented.
